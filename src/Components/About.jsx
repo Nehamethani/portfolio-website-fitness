@@ -1,24 +1,29 @@
-import React from 'react'
+import React from 'react';
+import HomePageImg from '../assets/HomePageImg.png'
+
 
 const About = () => {
+
   return (
-    <section className='w-full'>
-      //rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 
-       <div className='p-4 text-white text-center'>
-    <h1 className="text-4xl font-bold text-center mb-5">About Me</h1>
-    <h2 className="text-2xl font-semibold mb-2">Meet Navin Methani , Your Elite Fitness Coach</h2>
-    <p className="text-lg text-slate-400 mb-4">
-        Welcome to our website! We are dedicated to providing you with the best service possible. 
-        Our team works tirelessly to ensure that you have a wonderful experience with us.
+    <div className='flex items-center justify-center h-screen bg-no-repeat bg-right bg-origin-border bg-auto' style={{backgroundImage:`url(${HomePageImg})`}}>
+    <div className='flex flex-col items-center justify-center w-3/4 h-3/4 text-white text-center bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 p-20'>
+    <h1 className="text-4xl font-bold text-center">About</h1>
+    <h2 className="text-white-300 text-3xl font-mono font-thin tracking-wide text-lg md:text-lef">Meet Navin Methani, Your Elite Fitness Coach.</h2>
+    <br/>
+    <p className="text-lg text-white-400">
+    Welcome! I’m Navin Methani, a dedicated fitness trainer with over 5 years of experience helping clients reach their personal health goals. My approach is all about balance, ensuring that fitness routines are not just effective but also sustainable and enjoyable. Whether you're looking to build muscle, improve endurance, or lose weight, I'm here to support you with personalized workouts, nutritional advice, and motivation every step of the way. 
     </p>
-   
-    <p className="text-lg text-slate-400 mb-4">
-        Our mission is to inspire and empower our customers through quality products and services. 
-        We believe in transparency, integrity, and quality.
+    <br/>
+    <p className="text-lg text-white-400">
+    Welcome! I’m Navin Methani, a dedicated fitness trainer with over 5 years of experience helping clients reach their personal health goals. My approach is all about balance, ensuring that fitness routines are not just effective but also sustainable and enjoyable. Whether you're looking to build muscle, improve endurance, or lose weight, I'm here to support you with personalized workouts, nutritional advice, and motivation every step of the way. 
+    </p>
+   <br/>
+    <p className="text-lg text-white-400">
+    Let’s work together to bring out your best self!
     </p>
    
 </div>
-    </section>
+    </div>
   )
 }
 
