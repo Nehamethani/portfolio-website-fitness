@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Cards from './Cards';
 
 const Services = () => {
   return (
-    <div>
-      <h1 className='text-white'>Services</h1>
+    <div className=''>
+        <h1 className='text-slate-100'> Services</h1>
+      <Cards/>
+      
     </div>
   )
 }
