@@ -10,13 +10,14 @@ import {
 
 const Cards = () => {
   return (
-    <section className="flex justify-center  space-x-10">
-        <Card className="max-w-[22rem] overflow-hidden bg-gray-50 text-gray-950	">
-        <CardBody>
-        <Typography variant="h4">
-          UI/UX Review Check
+    <section className="flex flex justify-center  space-x-10">
+    
+        <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950">
+        <CardBody className="p-4">
+        <Typography variant="h4" className="text-lg">
+          Personalized Training
         </Typography>
-        <Typography variant="lead" className="mt-3 font-normal">
+        <Typography className="mt-3 font-normal">
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.
         </Typography>
@@ -36,12 +37,12 @@ const Cards = () => {
       
      
     </Card>
-    <Card className="max-w-[22rem] overflow-hidden bg-gray-50 text-gray-950	">
-        <CardBody>
-        <Typography variant="h4">
-          UI/UX Review Check
+    <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
+    <CardBody className="p-4">
+        <Typography className="text-lg">
+          Specialized Program
         </Typography>
-        <Typography variant="lead" className="mt-3 font-normal">
+        <Typography className="mt-3 font-normal">
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.
         </Typography>
@@ -61,12 +62,12 @@ const Cards = () => {
       
      
     </Card>
-    <Card className="max-w-[22rem] overflow-hidden bg-gray-50 text-gray-950	">
-        <CardBody>
-        <Typography variant="h4">
-          UI/UX Review Check
+    <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
+    <CardBody className="p-4">
+        <Typography className="text-lg">
+         Nutrition Guidance
         </Typography>
-        <Typography variant="lead" className="mt-3 font-normal">
+        <Typography  className="mt-3 font-small ">
           Because it&apos;s about motivating the doers. Because I&apos;m here to
           follow my dreams and inspire others.
         </Typography>
