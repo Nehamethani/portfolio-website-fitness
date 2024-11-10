@@ -18,7 +18,7 @@ const Navbar = () => {
             </Link>
 
             <div className="mr-32 md:ml-auto">
-              <div className="flex space-x-2">
+              <div className="text-slate-300 flex space-x-10">
 
                  <Link to="/">Home</Link>
 
@@ -29,20 +29,29 @@ const Navbar = () => {
             >
               About
             </Link>
+            <Link
+             
+              
+             smooth to={'/#about'}
+           >
+             Services
+           </Link>
+           <Link
+             
+              
+             smooth to={'/#about'}
+           >
+             Testimonials
+           </Link>
+           <Link
+             
+              
+             smooth to={'/#about'}
+           >
+             Contact
+           </Link>
 
-            {/* <Link smooth to={'/page#focusable-heading'}>
-              Focusable Heading
-            </Link>
-
-
-                <Link smooth to={'/page#focusable-heading'}>
-              Focusable Heading
-            </Link>
-                
-            <Link smooth to={'/page#focusable-heading'}>
-              Focusable Heading
-            </Link> */}
-                
+           
               </div>
             </div>
           </div>

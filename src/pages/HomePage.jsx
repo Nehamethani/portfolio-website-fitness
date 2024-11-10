@@ -5,6 +5,7 @@ import Navbar from '../Components/Navbar';
 import Testimonials from '../Components/Testimonials';
 import Services from '../Components/Services';
 import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
 
 const HomePage = () => {
   return (
@@ -13,8 +14,9 @@ const HomePage = () => {
       <Hero/>
       <About/>
       <Services/>
-      <Testimonials/>
+      <Testimonials/> 
       <Contact/>
+      <Footer/>
     </>
   )
 }
