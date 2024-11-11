@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
    
-      <section className='flex neumorphic h-[60vh] bg-gray-200 p-8 items-center'>
+      <section className='flex neumorphic h-[60vh] bg-gray-200 p-8 items-center' id='testimonials'>
       <div className='shrink flex flex-col grow-0 space-y-5  p-5 text-left'>
       <h1 className='text-4xl font-bold'>Testimonials</h1>
       <h2 className='text-3xl font-mono font-thin tracking-wide text-lg md:text-lef'>Hear What Navin's Client Says</h2>

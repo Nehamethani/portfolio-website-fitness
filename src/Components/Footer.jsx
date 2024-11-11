@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <section className='flex flex-col border-t border-gray-700 space-y-6 justify-center items-center'>
+        <section className='flex flex-col border-t border-gray-700 space-y-6 justify-center items-center' id='footer'>
             <div className='flex justify-center items-center'>
                 <Link className="tracking-wider italic font-mono flex text-slate-300 flex-shrink-0 items-center md:ml-10" to="/">
                     Navin Methani

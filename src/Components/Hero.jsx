@@ -4,7 +4,7 @@ import HomePageImg from '../assets/IMG_6725.PNG';
 const Hero = () => {
   return (
     <>
-      <section className='bg-black flex flex-col-reverse md:flex-row h-98 items-center justify-center' id="#">
+      <section className='bg-black flex flex-col-reverse md:flex-row h-98 items-center justify-center' id="hero">
 
         <div className='flex flex-col flex-1 h-96 items-left ml-16 pl-14 pr-14 space-y-6 md:text-left md:ml-0 md:mr-0'>
             <h1 className="text-slate-300 text-5xl font-bold uppercase tracking-wider md:text-left">Your Home's Exclusive Personal Trainer</h1>

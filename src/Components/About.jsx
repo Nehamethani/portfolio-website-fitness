@@ -5,7 +5,7 @@ import HomePageImg from '../assets/HomePageImg.png'
 const About = () => {
 
   return (
-    <section className='flex items-center justify-center h-[80vh] w-auto bg-no-repeat bg-right bg-origin-border bg-auto' style={{backgroundImage:`url(${HomePageImg})`}}>
+    <section className='flex items-center justify-center h-[80vh] w-auto bg-no-repeat bg-right bg-origin-border bg-auto' style={{backgroundImage:`url(${HomePageImg})`}} id='about'>
     <div className='flex flex-col  justify-center w-3/5 h-3/4 text-white text-center bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 p-20'>
     <h1 className="text-4xl font-bold text-center">About</h1>
     <h2 className="text-white-300 text-3xl font-mono font-thin tracking-wide text-lg md:text-lef">Meet Navin Methani, Your Elite Fitness Coach.</h2>
