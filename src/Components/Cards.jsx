@@ -10,7 +10,7 @@ import {
 
 const Cards = () => {
   return (
-    <section className="flex flex justify-center  space-x-10">
+    <section className="flex flex-col justify-center  space-x-10">
     
         <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950">
         <CardBody className="p-4">
