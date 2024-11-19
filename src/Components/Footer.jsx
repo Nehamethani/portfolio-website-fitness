@@ -9,7 +9,7 @@ const Footer = () => {
                     Navin Methani
                 </Link>
             </div>
-            <div className='text-white text-center border-b-10 border-gray-700 space-x-10'>
+            <div className='text-center border-b-10 border-gray-700 space-x-10'>
                 <Link to="/">Home</Link>
                 <Link
                     smooth to={'/#about'}
