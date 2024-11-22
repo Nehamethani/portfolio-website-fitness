@@ -21,8 +21,8 @@ const Contact = () => {
   return (
     <section className="bg-black text-white py-16 px-4 text-center h-[calc(100vh-11rem)]" id="contact">
       <div className='space-y-4'>
-      <h1 className='text-4xl font-bold text-center text-white'>Contact Me</h1>
-      <h2 className='text-white text-center font-mono text-3xl tracking-wide md:text-lef'>Get In Touch With Navin Methani</h2>
+      <h1 className="text-xl uppercase font-thin text-center" style={{fontFamily:"Raleway"}}>Contact Me</h1>
+      <h2 className="text-white-300 text-3xl tracking-wide md:text-lef" style={{fontFamily:"Funnel Display"}}>Get In Touch With Navin Methani</h2>
       <h6 className="mb-8">Let's Begin Your Fitness Journey Today</h6>
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <div className="mb-6">

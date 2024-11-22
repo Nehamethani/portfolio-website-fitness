@@ -9,8 +9,8 @@ const style = {
 const About = () => {
 
   return (
-    <section className='flex items-center justify-center mt-32 mb-16 lg:mt-20 lg:pt-16 lg:pb-16 lg:p-10 w-auto bg-no-repeat bg-right bg-origin-border bg-auto' style={style} id='about'>
-    <div className='flex flex-col  justify-center w-full space-y-5 p-4 h-auto lg:w-4/5 lg:h-3/4 text-white text-center lg:bg-gray-400 lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-xl lg:bg-opacity-20 p-0 lg:p-20'>
+    <section className='flex items-center justify-center mt-32 mb-5 lg:mt-20 lg:pt-16 lg:pb-16 lg:p-10 w-auto bg-no-repeat bg-right bg-origin-border bg-auto' style={style} id='about'>
+    <div className='flex flex-col  justify-center w-full space-y-5 p-4 h-auto lg:w-4/5 lg:h-3/4 text-white text-center bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 p-5 pb-20 lg:p-20'>
     <h1 className="text-xl uppercase font-thin text-center" style={{fontFamily:"Raleway"}}>About</h1>
     <h2 className="text-white-300 text-3xl tracking-wide md:text-lef" style={{fontFamily:"Funnel Display"}}>Meet Navin Methani, Your Elite Fitness Coach.</h2>
     
