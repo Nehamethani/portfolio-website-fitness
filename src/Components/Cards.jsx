@@ -14,6 +14,28 @@ const Cards = () => {
     
     <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
     <CardBody className="p-4">
+        <Typography className="text-lg font-bold">
+          Personalized Training
+        </Typography>
+        <Typography className="mt-3 font-normal">
+          Because it&apos;s about motivating the doers. Because I&apos;m here to
+          follow my dreams and inspire others.
+        </Typography>
+      </CardBody>
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 rounded-none"
+      >
+        <img
+          src="https://www.grxstatic.com/4f3rgqwzdznj/2p2XouRFANL9uw1l4PmTif/386e4b03d7a73890023f90478a12873b/middle_aged_man_working_out_at_gym_with_trainer-852401638.jpg?format=pjpg&auto=webp"
+          alt="personalized-training"
+        />
+      </CardHeader> 
+    </Card>
+    <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
+    <CardBody className="p-4 font-bold">
         <Typography className="text-lg">
           Specialized Program
         </Typography>
@@ -29,36 +51,13 @@ const Cards = () => {
         className="m-0 rounded-none"
       >
         <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
-          alt="personalized-training"
+          src="https://media.istockphoto.com/id/1154771778/photo/close-up-of-unrecognizable-athlete-running-on-a-treadmill-in-a-gym.jpg?s=612x612&w=0&k=20&c=IiZuHMBelh5U0ztdJdFmGxAZzXvKOUHlVr4qd7Aon_s="
         />
       </CardHeader> 
     </Card>
     <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
     <CardBody className="p-4">
-        <Typography className="text-lg">
-          Specialized Program
-        </Typography>
-        <Typography className="mt-3 font-normal">
-          Because it&apos;s about motivating the doers. Because I&apos;m here to
-          follow my dreams and inspire others.
-        </Typography>
-      </CardBody>
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="m-0 rounded-none"
-      >
-        <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
-          alt="personalized-training"
-        />
-      </CardHeader> 
-    </Card>
-    <Card className="max-w-[20rem] overflow-hidden bg-gray-50 text-gray-950	">
-    <CardBody className="p-4">
-        <Typography className="text-lg">
+        <Typography className="text-lg font-bold">
          Nutrition Guidance
         </Typography>
         <Typography  className="mt-3 font-small ">
@@ -73,7 +72,7 @@ const Cards = () => {
         className="m-0 rounded-none"
       >
         <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          src="https://images-prod.healthline.com/hlcmsresource/images/AN_images/indian-diet-weight-loss-1296x728-feature.jpg"
           alt="personalized-training"
         />
       </CardHeader>
