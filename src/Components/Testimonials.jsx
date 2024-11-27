@@ -8,7 +8,7 @@ const style = {
 const Testimonials = () => {
   return (
    
-      <section className='flex flex-col lg:flex-row neumorphic bg-gray-200 p-8 items-center' id='testimonials'>
+      <section className='flex flex-col lg:flex-row neumorphic bg-gray-200 p-8 items-center ' id='testimonials'>
       <div className='flex basis-1/2 flex-col grow-0 space-y-6 p-4 text-left'>
       <h1 className="text-xl uppercase font-thin text-left font-bold" style={style}>Testimonials</h1>
       <h2 className="text-white-300 text-3xl tracking-wide md:text-lef" style={{fontFamily:"Funnel Display"}}>Hear What Navin's Client Says</h2>
