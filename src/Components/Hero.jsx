@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePageImg from '../assets/IMG_6725.PNG';
+import HomePageImg from '../assets/IMG_6725.png';
 import { Link } from 'react-scroll';
 const style = {
   backgroundImage:`url(${HomePageImg})`,
